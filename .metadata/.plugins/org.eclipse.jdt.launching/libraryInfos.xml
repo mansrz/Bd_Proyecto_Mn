@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<libraryInfos>
+<libraryInfo home="C:\Users\Edinson\.ssh\adt-bundle-windows-x86_64-20140624\eclipse" version="1.7.0_60">
+<bootpath>
+<entry path="C:\Users\Edinson\.ssh\adt-bundle-windows-x86_64-20140624\eclipse\lib\resources.jar"/>
+<entry path="C:\Users\Edinson\.ssh\adt-bundle-windows-x86_64-20140624\eclipse\lib\rt.jar"/>
+<entry path="C:\Users\Edinson\.ssh\adt-bundle-windows-x86_64-20140624\eclipse\lib\sunrsasign.jar"/>
+<entry path="C:\Users\Edinson\.ssh\adt-bundle-windows-x86_64-20140624\eclipse\lib\jsse.jar"/>
+<entry path="C:\Users\Edinson\.ssh\adt-bundle-windows-x86_64-20140624\eclipse\lib\jce.jar"/>
+<entry path="C:\Users\Edinson\.ssh\adt-bundle-windows-x86_64-20140624\eclipse\lib\charsets.jar"/>
+<entry path="C:\Users\Edinson\.ssh\adt-bundle-windows-x86_64-20140624\eclipse\lib\jfr.jar"/>
+<entry path="C:\Users\Edinson\.ssh\adt-bundle-windows-x86_64-20140624\eclipse\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="C:\Users\Edinson\.ssh\adt-bundle-windows-x86_64-20140624\eclipse\lib\ext"/>
+<entry path="C:\windows\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="C:\Users\Edinson\.ssh\adt-bundle-windows-x86_64-20140624\eclipse\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+</libraryInfos>
