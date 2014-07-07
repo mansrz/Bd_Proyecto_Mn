@@ -5,7 +5,4 @@
     <string name="jugador">Jugador</string>
     <string name="nombre">Nombre</string>
     <string name="apellido">Apellido</string>
-    <string name="direccion">Direccion</string>
-    <string name="telefono">Telefono</string>
-    <string name="habilidades">Habilidades</string>
 </resources>
