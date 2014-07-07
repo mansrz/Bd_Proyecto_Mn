@@ -16,14 +16,6 @@ public class HelloActivity extends Activity {
         // Do something in response to button
     	setContentView(R.layout.menu);
     }
-    public void equipo(View view) {
-        // Do something in response to button
-    	setContentView(R.layout.equipo);
-    }
-    public void crearj(View view) {
-        // Do something in response to button
-    	setContentView(R.layout.jugador);
-    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
