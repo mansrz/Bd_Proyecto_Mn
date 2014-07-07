@@ -24,18 +24,6 @@ public class HelloActivity extends Activity {
         // Do something in response to button
     	setContentView(R.layout.jugador);
     }
-    public void entrenamiento(View view) {
-        // Do something in response to button
-    	setContentView(R.layout.entrenamientos);
-    }
-    public void formacion(View view) {
-        // Do something in response to button
-    	setContentView(R.layout.formacion);
-    }
-    public void configuracion(View view) {
-        // Do something in response to button
-    	setContentView(R.layout.configuracion);
-    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -43,14 +31,4 @@ public class HelloActivity extends Activity {
         getMenuInflater().inflate(R.menu.activity_hello, menu);
         return true;
     }    
-    
-    public boolean onResum(){
-    	
-    	setContentView(R.layout.menu);
-		return false;
-    	
-    	
-    }
-    
-    
 }
