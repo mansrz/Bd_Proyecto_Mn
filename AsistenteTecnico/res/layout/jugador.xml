@@ -50,15 +50,6 @@
         android:ems="10"
         android:inputType="phone" />
 
-    <Button
-        android:id="@+id/button1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/editText5"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="30dp"
-        android:text="@string/habilidades" />
-
     <EditText
         android:id="@+id/editText5"
         android:layout_width="wrap_content"
@@ -80,5 +71,14 @@
         android:ems="10"
         android:inputType="textPostalAddress"
         android:text="@string/direccion" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="18dp"
+        android:text="@string/habilidades" />
 
 </RelativeLayout>
