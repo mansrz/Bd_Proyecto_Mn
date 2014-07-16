@@ -24,6 +24,18 @@ public class HelloActivity extends Activity {
         // Do something in response to button
     	setContentView(R.layout.jugador);
     }
+    public void campeonato(View view) {
+        // Do something in response to button
+    	setContentView(R.layout.campeonatos);
+    }
+    public void estadisticas(View view) {
+        // Do something in response to button
+    	setContentView(R.layout.estadisticass);
+    }
+    public void editarJ(View view) {
+        // Do something in response to button
+    	setContentView(R.layout.jugador);
+    }
     public void entrenamiento(View view) {
         // Do something in response to button
     	setContentView(R.layout.entrenamientos);

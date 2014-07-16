@@ -5,24 +5,6 @@
     android:background="@drawable/cancha" >
 
     <Button
-        android:id="@+id/button6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/button7"
-        android:layout_alignRight="@+id/button1"
-        android:layout_marginBottom="24dp"
-        android:text="@string/partidos" />
-
-    <Button
-        android:id="@+id/button7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/button3"
-        android:layout_alignParentBottom="true"
-        android:onClick="configuracion"
-        android:text="@string/configuracion" />
-
-    <Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -31,6 +13,7 @@
         android:layout_marginTop="15dp"
         android:fitsSystemWindows="false"
         android:text="@string/campeonatos"
+        android:onClick="campeonato"
         android:textAllCaps="false" />
 
     <Button
@@ -39,6 +22,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/button2"
         android:layout_centerHorizontal="true"
+        android:onClick="estadisticas"
         android:text="@string/estadisticas" />
 
     <Button
@@ -71,5 +55,15 @@
         android:layout_marginTop="18dp"
         android:onClick="equipo"
         android:text="@string/equipo" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/button5"
+        android:layout_marginBottom="32dp"
+        android:onClick="configuracion"
+        android:text="@string/configuracion" />
 
 </RelativeLayout>

@@ -4,17 +4,6 @@
     android:layout_height="match_parent"
     android:background="@drawable/cancha" >
 
-    <TextView
-        android:id="@+id/textView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginLeft="34dp"
-        android:layout_marginTop="46dp"
-        android:text="@string/jugador"
-        android:textAppearance="?android:attr/textAppearanceLarge" />
-
     <EditText
         android:id="@+id/editText1"
         android:layout_width="wrap_content"
@@ -80,5 +69,15 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="18dp"
         android:text="@string/habilidades" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="45dp"
+        android:layout_toLeftOf="@+id/button1"
+        android:text="@string/jugador"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
 
 </RelativeLayout>
