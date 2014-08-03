@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cancha" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="34dp"
+        android:layout_marginTop="46dp"
+        android:text="@string/jugador"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/textView1"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="26dp"
+        android:ems="10"
+        android:inputType="phone" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txt_telefonojugador"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="16dp"
+        android:text="@string/habilidades" />
+
+    <Button
+        android:id="@+id/btn_guardar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/button1"
+        android:layout_marginLeft="35dp"
+        android:layout_toRightOf="@+id/button1"
+        android:onClick="guardar_jugador"
+        android:text="@string/str_guardar" />
+
+    <EditText
+        android:id="@+id/txt_nombreJugador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/nombre" />
+
+    <EditText
+        android:id="@+id/txt_apellidojugador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editText4"
+        android:layout_alignLeft="@+id/editText1"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/apellido" />
+
+    <EditText
+        android:id="@+id/txt_direccionjugador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/editText4"
+        android:layout_alignBottom="@+id/editText4"
+        android:layout_alignLeft="@+id/txt_apellidojugador"
+        android:ems="10"
+        android:inputType="textPostalAddress"
+        android:text="@string/direccion" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/txt_telefonojugador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txt_direccionjugador"
+        android:layout_below="@+id/editText4"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:inputType="phone"
+        android:text="@string/telefono" />
+
+</RelativeLayout>

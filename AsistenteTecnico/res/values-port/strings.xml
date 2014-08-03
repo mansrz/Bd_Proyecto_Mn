@@ -21,8 +21,5 @@
     <string name="jugadores">Jugadores</string>
     <string name="notas">Notas</string>
     <string name="observaciones">Observaciones</string>
-    <string name="selectcampeonato">seleccionar campeonato</string>
-    <string name="estadistporJugador">Estadistica por Jugador</string>
-    <string name="estPorEquipos">Estadistica Por Equipos</string>
-    <string name="estPorCampeonatos">Estadistica Por Campeonatos</string>
+    <string name="str_guardar">guardar</string>
 </resources>

@@ -2,4 +2,20 @@
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="com.example.asistentetecnico.R"/>
 <fullyQualifiedTypeName name="android.view.View"/>
+<fullyQualifiedTypeName name="com.greenDao.esquema.DaoMaster.OpenHelper"/>
+<fullyQualifiedTypeName name="android.database.DatabaseErrorHandler"/>
+<fullyQualifiedTypeName name="android.nfc.Tag"/>
+<fullyQualifiedTypeName name="android.R"/>
+<fullyQualifiedTypeName name="android.R.layout"/>
+<fullyQualifiedTypeName name="android.database.sqlite.SQLiteDatabase"/>
+<fullyQualifiedTypeName name="android.util.Pair"/>
+<fullyQualifiedTypeName name="de.greenrobot.daoexample.R.layout"/>
+<fullyQualifiedTypeName name="de.greenrobot.daoexample.R.id"/>
+<fullyQualifiedTypeName name="de.greenrobot.daoexample.R.string"/>
+<fullyQualifiedTypeName name="de.greenrobot.daoexample.R"/>
+<fullyQualifiedTypeName name="de.greenrobot.daoexample.Jugador"/>
+<fullyQualifiedTypeName name="de.greenrobot.daoexample.R.attr"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="android.util.Log"/>
 </qualifiedTypeNameHistroy>

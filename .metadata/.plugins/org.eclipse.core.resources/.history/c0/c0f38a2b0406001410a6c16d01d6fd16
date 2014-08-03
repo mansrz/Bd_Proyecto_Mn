@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="title">Asistente Tecnico Alfa</string>
-    <string name="start">Start</string>
-    <string name="jugador">Jugador</string>
-    <string name="nombre">Nombre</string>
-    <string name="apellido">Apellido</string>
-    <string name="direccion">Direccion</string>
-</resources>
