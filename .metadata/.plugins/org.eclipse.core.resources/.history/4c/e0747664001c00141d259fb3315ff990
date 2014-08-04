@@ -10,14 +10,5 @@
     <string name="diestro">Diestro</string>
     <string name="ambidiestro">Ambidiestro</string>
     <string name="habilidades">HABILIDADES DEL JUGADOR</string>
-    <string name="velocidad">Velocidad</string>
-    <string name="stamina">Stamina/resistencia</string>
-    <string name="estatura">Estatura</string>
-    <string name="potencia">Potencia</string>
-    <string name="control">Control de balon</string>
-    <string name="dribling">Dribling</string>
-    <string name="marcacioon">Marcacion</string>
-    <string name="edad">Edad</string>
-    <string name="ok">OK</string>
 
 </resources>

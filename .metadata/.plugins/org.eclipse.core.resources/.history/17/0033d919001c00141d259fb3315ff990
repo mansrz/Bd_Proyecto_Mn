@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Asistente Tecnico Alfa</string>
+    <string name="Bienvenido">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_ingresar_jugador">IngresarJugador</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="zurdo">Zurdo</string>
+    <string name="diestro">Diestro</string>
+
+</resources>
